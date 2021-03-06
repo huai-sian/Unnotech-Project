@@ -1,21 +1,21 @@
 # unnotech
 
-## Project setup
+## 專案執行
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 架構
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 第三方 library
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### 困難
 ```
 npm run lint
 ```
