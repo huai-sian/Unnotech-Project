@@ -1,9 +1,7 @@
 # unnotech
 
 ## 專案執行
-```
-npm install
-```
+。
 
 ### 架構
 ```
