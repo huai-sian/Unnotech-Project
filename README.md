@@ -1,6 +1,6 @@
 # unnotech
 
-## 專案執行
+### 專案執行
 將該 repo 自 github clone 下來或是直接下載 zip 檔，取得之後於 terminal 執行 npm install ，以將該專案的相依套件node_modules函式庫注進該專案中。安裝完成之後，於 terminal 執行 npm run serve 建立整體環境並執行。 
 
 ### 架構
@@ -12,7 +12,4 @@ Book Detail 頁面中的 Book Detail 元件，先依 route 中傳來的參數（
 * Tailwind-css：在class使用及定義上可以具有高度的彈性，有高度客製化的特質，對於專案長期的維護相當方便，此外，一個 class 即代表一個樣式設定，修改及維護方便。該專案並沒有自行手動調整 utility class，皆是直接使用預設的 utility class，因此直接使用 cdn 執行 Tailwind-css。
 
 ### 困難
-
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+在組織元件時對於要怎麼實現更換頁面不重新 render Book List 及安排 router 嘗試了幾次，仔細思考 router 的背後原理，在 route 轉換時更換 component後，便將 Booklist 提升至上層。
