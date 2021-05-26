@@ -32,6 +32,9 @@ jobs:
           cat .env
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          branch: gh-pages
+          FOLDER: dist
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # Settings > Secret 建立的 ACCESS_TOKEN
           BRANCH: gh-pages # deploy 到 gh-pages 這個分支
